@@ -1,0 +1,32 @@
+<oml:data_set_description xmlns:oml="http://openml.org/openml">
+  <oml:id>44062</oml:id>
+  <oml:name>Brazilian_houses</oml:name>
+  <oml:version>8</oml:version>
+  <oml:description>Dataset used in the tabular data benchmark https://github.com/LeoGrin/tabular-benchmark,  
+                                  transformed in the same way. This dataset belongs to the &quot;regression on categorical and
+                                  numerical features&quot; benchmark. Original description: 
+ 
+**Author**: Kaggle  
+**Source**: [original](https://www.kaggle.com/rubenssjr/brasilian-houses-to-rent) - 20-03-2020  
+**Please cite**:   
+
+This dataset contains 10962 houses to rent with 13 diferent features.
+
+**Outliers **
+Some values in the dataset can be considered as outliers for further analyses. Bear in mind that the Web Crawler was used only to get the data, so it's possible that errors in the original data exist.
+
+**Changes in data between versions of dataset **
+Since the WebCrawler was ran in different days for each version of dataset, there may be differences like added or deleted houses (as well as added cities).
+
+Notes: 
+
+1) This dataset corresponds to the 2nd version of the original dataset (&quot;houses_to_rent_v2.csv&quot;).
+
+2) The value '-' in the attribute floor was replaced by '0' as the data contributor stated that this refers to houses with just one floor (see https://www.kaggle.com/rubenssjr/brasilian-houses-to-rent/discussion).</oml:description>
+  <oml:description_version>1</oml:description_version>
+  <oml:format>arff</oml:format>
+  <oml:creator>Kaggle</oml:creator>  <oml:contributor>Leo Grin</oml:contributor>   <oml:collection_date>20-03-2020</oml:collection_date>  <oml:upload_date>2022-06-21T10:32:26</oml:upload_date>
+  <oml:language>English</oml:language>  <oml:licence>Public</oml:licence>  <oml:url>https://api.openml.org/data/v1/download/22103158/Brazilian_houses.arff</oml:url>
+  <oml:parquet_url>https://openml1.win.tue.nl/datasets/0004/44062/dataset_44062.pq</oml:parquet_url>  <oml:file_id>22103158</oml:file_id>  <oml:default_target_attribute>total_(BRL)</oml:default_target_attribute>          <oml:tag>Computer Systems</oml:tag><oml:tag>Physical Sciences</oml:tag>  <oml:visibility>public</oml:visibility>      <oml:minio_url>https://openml1.win.tue.nl/datasets/0004/44062/dataset_44062.pq</oml:minio_url>  <oml:status>active</oml:status>
+  <oml:processing_date>2022-06-21 10:33:31</oml:processing_date>      <oml:md5_checksum>72c9a875a19f79e6bfa9eb501b133574</oml:md5_checksum>
+</oml:data_set_description>

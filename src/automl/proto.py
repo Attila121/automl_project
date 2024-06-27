@@ -1,16 +1,16 @@
-"""AutoML class for regression tasks.
+"""AutoML class for exploring a proper setup for the AutoML class.
 
-This module contains an example AutoML class that simply returns dummy predictions.
-You do not need to use this setup or sklearn and you can modify this however you like.
+takes the shape of the example AutoML script that simply returns dummy predictions.
 """
 from __future__ import annotations
 
-from sklearn.dummy import DummyRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 import pandas as pd
 import numpy as np
 import logging
+
+from automl.algorithm_search import return_model as Model
 
 logger = logging.getLogger(__name__)
 
@@ -25,22 +25,23 @@ class AutoML:
     ) -> None:
         self.seed = seed
         self.metric = METRICS[metric]
-        self._model: DummyRegressor | None = None
+        self._model: Model | None = None
 
     def fit(
         self,
         X: pd.DataFrame,
         y: pd.Series,
     ) -> AutoML:
-        
         X_train, X_val, y_train, y_val = train_test_split(
             X,
             y,
             random_state=self.seed,
             test_size=0.2,
         )
-        
-        model = DummyRegressor()
+
+
+        ### imoplement alg search here, now just return a model
+        model = Model()
         model.fit(X_train, y_train)
         self._model = model
 

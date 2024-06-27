@@ -1,0 +1,85 @@
+<oml:data_set_description xmlns:oml="http://openml.org/openml">
+  <oml:id>44054</oml:id>
+  <oml:name>yprop_4_1</oml:name>
+  <oml:version>3</oml:version>
+  <oml:description>Dataset used in the tabular data benchmark https://github.com/LeoGrin/tabular-benchmark,  
+                                  transformed in the same way. This dataset belongs to the &quot;regression on categorical and
+                                  numerical features&quot; benchmark. Original description: 
+ 
+**Author**:   
+**Source**: Unknown - Date unknown  
+**Please cite**:   
+
+This is one of 41 drug design datasets. The datasets with 1143 features are formed using Adriana.Code software  (www.molecular-networks.com/software/adrianacode).
+The molecules and outputs are taken from the original studies (see below). The other datasets are taken exactly from the original studies. 
+
+The last attribute in each file is the target.
+
+Original studies:
+
+carbolenes
+&quot;B. D. Silverman and Daniel. E. Platt, J. Med. Chem. 1996, 39, 2129-2140&quot;
+
+mtp2
+&quot;Bergstrom, C. A. S.; Norinder, U.; Luthman, K.; Artursson, P. Molecular Descriptors Influencing Melting Point and Their Role in Classification of Solid Drugs. J. Chem. Inf. Comput. Sci.; (Article); 2003; 43(4); 1177-1185&quot;
+
+chang, cristalli, depreux, doherty, garrat2, garrat, heyl, krystek, lewis, penning, rosowsky, siddiqi, stevenson, strupcz, svensson, thompson, tsutumi, uejling, yokoyama1, yokoyama2	
+&quot;David E Patterson, Richard D Cramer, Allan M Ferguson, Robert D Clark, Laurence W Weinberger. Neighbourhood Behaviour: A Useful Concept for Validation of &quot;&quot;Molecular Diversity&quot;&quot; Descriptors. J. Med. Chem. 1996 (39) 3049 - 3059.&quot;
+
+mtp
+&quot;Karthikeyan, M.; Glen, R.C.; Bender, A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-590&quot;
+
+benzo32
+&quot;Harrison,P.W. and Barlin,G.B. and Davies,L.P. and Ireland,S.J. and Matyus,P. and Wong,M.G., Syntheses, pharmacological evaluation and molecular modelling of substituted 6-alkoxyimidazo[1,2-b]pyridazines as new ligands for the benzodiazepine receptor, European Journal of Medicinal Chemistry, (31), 1996, 651-662&quot;
+
+PHENETYL1	
+&quot;H. Kubinyi (Ed.): &quot;&quot;QSAR: Hansch Analysis and Related Approaches&quot;&quot;, VCH, Weinhein (Ger), 1993, pp.57-68&quot;
+
+pah	
+&quot;Todeschini, R.; Gramatica, P.; Marengo, E.; Provenzani, R. Weighted Holistic  Invariant Molecular Descriptors. Part 2. Theory Development and Applications on Modeling Physico-Chemical Properties of PolyAromatic Hydrocarbons (PAH). Chemom. Intell. Lab. Syst. 1995, 27, 221-229.&quot;
+
+pdgfr	
+&quot;R. Guha and P. Jurs. The Development of Linear, Ensemble and Non-linear Models for the Prediction and Interpretation of the Biological Activity of a Set of PDGFR Inhibitors. J. Chem. Inf. Comput. Sci. 2004, 44 (6), 2179-2189&quot;
+
+Phen	
+&quot;Cammarata, A. Interrelationship of the Regression Models Used for Structure-Activity Analyses. J. Med. Chem. 1972, 15, 573-577&quot;
+
+topo_2_1, yprop_4_1	
+&quot;Jun Feng et al, Predictive Toxicology: Benchmarking Molecular Descriptors and Statistical Methods, J. Chem. Inf Comput. Sci., 2003 (43) 1463-1470&quot;
+
+qsabr1, qsabr2	
+&quot;Damborsky, J., Schultz, T.W., Comparison of the QSAR models for toxicity and biodegradability of anilines and phenols, Chemosphere 34: 429-446, 1997&quot;
+
+qsartox	
+&quot;Blaha, L., Damborsky, J., Nemec, M., QSAR for acute toxicity of saturated and unsaturated halogenated aliphatic compounds, Chemosphere 36: 1345-1365, 1998&quot;
+
+qsbr_rw1	
+&quot;Damborsky, J. et al., Structure-biodegradability relationships for chlorinated dibenzo-p-dioxins and dibenzofurans, In: Wittich, R.-M., Biodegradation of dioxins and furans, R.G. Landes Company, Austin, 1998&quot;
+
+qsbr_y2	
+&quot;Damborsky, J. et al., A mechanistic approach to deriving QSBR- A case study: dehalogenation of haloaliphatic compounds, In: Peijnenburg, W.J.G.M., Damborsky, J., Biodegradability Prediction, Kluwer Academic Publishers&quot;
+
+qsbralks	
+&quot;Damborsky, J. et al., Mechanism-based Quantitative Structure-Biodegradability Relationships for hydrolytic dehalogenation of chloro- and bromo-alkenes, Quantitative Structure-Activity Relationships 17: 450-458, 1998&quot;
+
+qsfrdhla	
+&quot;Damborsky, J., Quantitative structure-function relationships of the single-point mutants of haloalkane dehalogenase: A multivariate approach, Qunatitative Structure-Activity Relationships 16: 126-135, 1997&quot;
+
+qsfsr1	
+&quot;Damborsky, J., Quantitative structure-function and structure-stability relationships of purposely modified proteins, Protein Engineering 11: 21-30, 1998&quot;
+
+qsfsr2	
+&quot;Damborsky, J., Quantitative structure-function and structure-stability relationships of purposely modified proteins, Protein Engineering 11: 21-30, 1998&quot;
+
+qsprcmpx	
+&quot;Cajan, M. et al., Stability of Aromatic Amides with Bromide Anion: Quantitative Structure-Property Relationships, Journal of Chemical Information and Computer Sciences, in press, 2000&quot;
+
+selwood	
+&quot;Selwood, D. L.; Livingstone, D. J.; Comley, J. C.; O'Dowd, A. B.; Hudson, A. T.; Jackson, P.; Jandu, K. S.; Rose, V. S.; Stables, J. N. Structure-Activity Relationships of Antifilarial Antimycin Analogues: A Multivariate Pattern Recognition Study J. Med. Chem., 1990, 33, 136-142&quot;</oml:description>
+  <oml:description_version>1</oml:description_version>
+  <oml:format>arff</oml:format>
+    <oml:contributor>Leo Grin</oml:contributor>    <oml:upload_date>2022-06-21T10:29:43</oml:upload_date>
+    <oml:licence>Public</oml:licence>  <oml:url>https://api.openml.org/data/v1/download/22103150/yprop_4_1.arff</oml:url>
+  <oml:parquet_url>https://openml1.win.tue.nl/datasets/0004/44054/dataset_44054.pq</oml:parquet_url>  <oml:file_id>22103150</oml:file_id>  <oml:default_target_attribute>oz252</oml:default_target_attribute>          <oml:tag>Computer Systems</oml:tag><oml:tag>Mathematics</oml:tag>  <oml:visibility>public</oml:visibility>      <oml:minio_url>https://openml1.win.tue.nl/datasets/0004/44054/dataset_44054.pq</oml:minio_url>  <oml:status>active</oml:status>
+  <oml:processing_date>2022-06-21 10:30:06</oml:processing_date>      <oml:md5_checksum>443fcb02d8c44ffd8f602303f50507e7</oml:md5_checksum>
+</oml:data_set_description>

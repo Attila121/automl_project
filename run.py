@@ -12,8 +12,10 @@ from pathlib import Path
 from sklearn.metrics import r2_score
 import numpy as np
 from automl.data import Dataset
-from automl.automl import AutoML
+from automl.proto import AutoML ### changed this to the proto script
 import argparse
+
+### import automl.NePS_proto as neps
 
 import logging
 

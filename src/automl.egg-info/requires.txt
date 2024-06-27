@@ -1,0 +1,5 @@
+scikit-learn
+openml
+pandas
+numpy<2.0
+IPython
