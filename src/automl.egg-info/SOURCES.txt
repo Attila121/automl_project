@@ -1,9 +1,12 @@
 LICENSE
 README.md
 pyproject.toml
+src/automl/NePS_proto.py
 src/automl/__init__.py
+src/automl/algorithm_search.py
 src/automl/automl.py
 src/automl/data.py
+src/automl/proto.py
 src/automl.egg-info/PKG-INFO
 src/automl.egg-info/SOURCES.txt
 src/automl.egg-info/dependency_links.txt

@@ -15,8 +15,6 @@ from automl.data import Dataset
 from automl.proto import AutoML ### changed this to the proto script
 import argparse
 
-### import automl.NePS_proto as neps
-
 import logging
 
 logger = logging.getLogger(__name__)
